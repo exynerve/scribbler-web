@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.logo {
+    width: 50%;
+    box-sizing: initial;
+}
+
+.logo > h1{
+    font-family: 'Montez', cursive; 
+    font-size: xx-large;
+    color: blue;
+    margin: 0;
+}
+
+.logo > p {
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
+}
+
+.header-right {
+    text-align: center;
+    padding: 10px;
+    right: 0;
+    position: absolute;
+}
+
+.header-right button {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 40px;
+    right: 0;
+    padding-right: 5px;
+}
+
+
+.posts {
+    width: fit-content;
+    align-self: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.posts button {
+    background-color: bisque;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+}
+
+#signup-modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; 
+    height: 400px; 
+    overflow: auto; 
+    background-color: whitesmoke;
+}
+
+#signin-modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; 
+    height: 400px; 
+    overflow: auto; 
+    background-color: whitesmoke;
+}
+
+#signup-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 10px;
+}
+
+#signin-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 10px;
+}
+
+p {
+    width: fit-content;
+    margin: 0;
+    left: 50%;
+}
